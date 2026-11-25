@@ -1,6 +1,8 @@
 import { describe, it, expect } from 'vitest';
-import { groupByDay as impl } from '../src/groupByDay';
+import { groupByDay as fixed } from '../src/groupByDay';
+import { groupByDay as legacy } from '../src/groupByDay.legacy';
 
+const impl = process.env.IMPL === 'legacy' ? legacy : fixed;
 
 const days = (ats: string[]) =>
   Object.fromEntries(

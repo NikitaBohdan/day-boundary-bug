@@ -7,6 +7,7 @@
   },
   "scripts": {
     "test": "vitest run",
+    "test:legacy": "cross-env IMPL=legacy vitest run",
     "typecheck": "tsc"
   },
   "author": "",
