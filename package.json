@@ -1,0 +1,21 @@
+{
+  "name": "day-boundary-bug",
+  "version": "1.0.0",
+  "description": "groupByDay: day boundary in Europe/Kyiv",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.10",
+    "cross-env": "^10.1.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  },
+  "type": "module"
+}
